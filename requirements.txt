@@ -1,0 +1,10 @@
+# Baseline dependencies for local experimentation with the notebook.
+# Kaggle images may already include several of these packages.
+ultralytics==8.2.58
+supervision==0.22.0
+opencv-python-headless>=4.10.0
+pandas>=2.0.0
+numpy>=1.26.0
+matplotlib>=3.7.0
+pillow>=9.5.0
+pyyaml>=6.0

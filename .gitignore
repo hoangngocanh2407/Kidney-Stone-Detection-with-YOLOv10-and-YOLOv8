@@ -1,0 +1,27 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Training outputs and model artifacts
+ft_models/
+runs/
+yolov10/weights/
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+
+# Local data mounts
+/data/
+datasets/
+
+# Logs and experiment trackers
+wandb/
+*.log
